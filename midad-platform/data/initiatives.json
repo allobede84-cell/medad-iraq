@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "title": "مكتبة الأحياء المجتمعية",
+    "category": "تعليم",
+    "status": "قيد التنفيذ",
+    "date": "2026-01-15",
+    "location": "الرياض",
+    "volunteers": 86,
+    "impact": "2,400 طالب مستفيد",
+    "description": "مشروع يربط الشباب بالمكتبات المحلية ويشجع القراءة والمهارات الرقمية في أحياء المدن المتنوعة.",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "حملة الأمانة الإنسانية",
+    "category": "إنسانية",
+    "status": "نشطة",
+    "date": "2026-02-12",
+    "location": "جدة",
+    "volunteers": 132,
+    "impact": "4,600 أسرة مستفيدة",
+    "description": "توفير الدعم الإنساني للأسرة في حالات الطوارئ وتنسيق التوزيع ورفع الوعي المجتمعي.",
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "مراكز تواصل ثقافي",
+    "category": "ثقافة",
+    "status": "مجهز",
+    "date": "2026-03-04",
+    "location": "الدمام",
+    "volunteers": 68,
+    "impact": "12 فعالية ثقافية",
+    "description": "تنظيم جلسات منتظمة للتعريف بالتاريخ والثقافة والهوية الوطنية عبر فعاليات شبابية متنوعة.",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "مسارات شبابية خضراء",
+    "category": "بيئة",
+    "status": "مستهدف",
+    "date": "2026-04-20",
+    "location": "المجمعة",
+    "volunteers": 54,
+    "impact": "1700 شجرة مزروعة",
+    "description": "مشروع مجتمعي يدمج القيادة البيئية والتوعية وتصميم فعاليات الحفظ والاعتماد المجتمعي.",
+    "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=900&q=80"
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: midad
+      POSTGRES_USER: midad
+      POSTGRES_PASSWORD: change-this-password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U midad -d midad"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://midad:change-this-password@postgres:5432/midad
+      REDIS_URL: redis://redis:6379
+      NEXT_PUBLIC_APP_URL: http://localhost:3000
+      JWT_SECRET: change-this-jwt-secret
+      SESSION_SECRET: change-this-session-secret
+    ports:
+      - "3000:3000"
+
+volumes:
+  pgdata:
